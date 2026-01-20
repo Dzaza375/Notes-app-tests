@@ -1,0 +1,226 @@
+01-20 16:41:19.659 15364 15381 I TestRunner: started: deleteNote_noteIsRemoved(com.example.notesapp.ui.DeleteNoteActivityTest)
+01-20 16:41:19.672 15364 15381 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-20 16:41:19.678 15364 15381 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+01-20 16:41:19.694   812  1637 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@f89fcb43 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+01-20 16:41:19.714   651   682 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for descriptor: '(not cached)'
+01-20 16:41:19.731  1642  1642 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused] -[state_user_active]
+01-20 16:41:19.733  1642  1642 D BaseActivity: Launcher flags updated: [state_started|state_window_focused] -[state_resumed|state_deferred_resumed]
+01-20 16:41:19.733  1642  1642 W SplitSelectStateCtor: Missing session instanceIds
+01-20 16:41:19.733  1642  1642 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+01-20 16:41:19.763  1642  1642 D RecentsView: onTaskDisplayChanged: 27, new displayId = 0
+01-20 16:41:19.763  1642  1642 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+01-20 16:41:19.772  1355  1491 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@cc65f60
+01-20 16:41:19.797  1642  1642 D BaseActivity: Launcher flags updated: [state_started] -[state_window_focused]
+01-20 16:41:19.863  1642  1642 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+01-20 16:41:19.864  1642  1642 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+01-20 16:41:19.870 15364 15364 D DesktopExperienceFlags: Toggle override initialized to: false
+01-20 16:41:19.899 15364 15364 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+01-20 16:41:19.933 15364 15364 D LifecycleMonitor: Lifecycle status change: com.example.notesapp.DeleteNoteActivity@fb94481 in: PRE_ON_CREATE
+01-20 16:41:19.933 15364 15364 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+01-20 16:41:20.000 15364 15364 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+01-20 16:41:20.189 15364 15364 I xample.notesapp: hiddenapi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+01-20 16:41:20.189 15364 15364 I xample.notesapp: hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+01-20 16:41:20.226 15364 15383 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+01-20 16:41:20.231 15364 15383 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+01-20 16:41:20.315  1642  1642 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+01-20 16:41:20.318  1355  1688 D WallpaperService: onVisibilityChanged(false): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@a59bd9e
+01-20 16:41:20.325  1642  1642 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+01-20 16:41:20.406 15364 15364 D LifecycleMonitor: Lifecycle status change: com.example.notesapp.DeleteNoteActivity@fb94481 in: CREATED
+01-20 16:41:20.406 15364 15364 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.notesapp.DeleteNoteActivity@fb94481
+01-20 16:41:20.415 15364 15364 D LifecycleMonitor: Lifecycle status change: com.example.notesapp.DeleteNoteActivity@fb94481 in: STARTED
+01-20 16:41:20.415 15364 15364 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.notesapp.DeleteNoteActivity@fb94481
+01-20 16:41:20.442 15364 15364 D LifecycleMonitor: Lifecycle status change: com.example.notesapp.DeleteNoteActivity@fb94481 in: RESUMED
+01-20 16:41:20.442 15364 15364 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.notesapp.DeleteNoteActivity@fb94481
+01-20 16:41:20.513   812  1262 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+01-20 16:41:20.530 15364 15364 W HWUI    : Unknown dataspace 0
+01-20 16:41:20.779 15364 15383 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+01-20 16:41:20.779 15364 15383 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+01-20 16:41:20.845 15364 15364 D VRI[DeleteNoteActivity]: WindowInsets changed: 1080x2400 statusBars:[0,63,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,63,0,84]
+01-20 16:41:20.852 15364 15364 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@961bed
+01-20 16:41:20.856 15364 15364 I HWUI    : Using FreeType backend (prop=Auto)
+01-20 16:41:20.912   651   682 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10237 pid=0
+01-20 16:41:20.912   651   682 D libbinder.PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10237 => denied (351 us)
+01-20 16:41:20.913   651   682 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10237 pid=0
+01-20 16:41:20.913   651   682 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10237 => denied (913 us)
+01-20 16:41:20.914   651   682 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10237 pid=0
+01-20 16:41:20.914   651   682 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10237 => denied (1071 us)
+01-20 16:41:20.959  1543  1684 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+01-20 16:41:20.978  1543  1684 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+01-20 16:41:21.102   812  1635 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10237 pid=0
+01-20 16:41:21.102   812  1635 D libbinder.PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10237 => denied (140 us)
+01-20 16:41:21.102   812  1635 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10237 pid=0
+01-20 16:41:21.102   812  1635 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10237 => denied (51 us)
+01-20 16:41:21.102   812  1635 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10237 pid=0
+01-20 16:41:21.102   812  1635 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10237 => denied (666 us)
+01-20 16:41:21.112   812   839 I ActivityTaskManager: Displayed com.example.notesapp/.DeleteNoteActivity for user 0: +1s419ms
+01-20 16:41:21.158   812   995 I ImeTracker: com.example.notesapp:c5d56092: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+01-20 16:41:21.163  7522  7522 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2057
+01-20 16:41:21.164  1642  1642 D BaseActivity: Launcher flags updated: [] -[state_started]
+01-20 16:41:21.164  1642  1642 D BaseDepthController: setSurface:
+01-20 16:41:21.164  1642  1642 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+01-20 16:41:21.164  1642  1642 D BaseDepthController: 	mBaseSurface: null
+01-20 16:41:21.164  1642  1642 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+01-20 16:41:21.166  7522  7522 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+01-20 16:41:21.168 15364 15364 I ImeTracker: com.example.notesapp:c5d56092: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+01-20 16:41:21.172   812  2390 I ImeTracker: system_server:f1963bfd: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+01-20 16:41:21.174  7522  7522 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1318 onStartInput(EditorInfo{EditorInfo{packageName=com.example.notesapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+01-20 16:41:21.178  1642  1642 D LauncherStateManager: StateManager.goToState: fromState: Normal, toState: Normal, partial trace:
+01-20 16:41:21.178  1642  1642 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme f3a19d912c87c27267cfbc05ba0bc7b202ab72a6648bd76225f5f7e128d94583:6)
+01-20 16:41:21.178  1642  1642 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme f3a19d912c87c27267cfbc05ba0bc7b202ab72a6648bd76225f5f7e128d94583:2)
+01-20 16:41:21.178  1642  1642 D LauncherStateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme f3a19d912c87c27267cfbc05ba0bc7b202ab72a6648bd76225f5f7e128d94583:32)
+01-20 16:41:21.178   812   842 I ImeTracker: system_server:f1963bfd: onCancelled at PHASE_SERVER_SHOULD_HIDE
+01-20 16:41:21.181  1642  1642 D LauncherStateManager: StateManager.onRepeatStateSetAborted: state: Normal
+01-20 16:41:21.182  7522  7522 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+01-20 16:41:21.192  1642  1642 D ActivityContext: hideKeyboard
+01-20 16:41:21.192  1642  1642 D ActivityContext: isImeShown: false
+01-20 16:41:21.192  1642  1642 D StatsLog: LAUNCHER_ONSTOP
+01-20 16:41:21.193  1642  1642 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+01-20 16:41:21.210  7187  7199 I FontLog : (REDACTED) Received query %s, URI %s
+01-20 16:41:21.213  7187  7199 I FontLog : (REDACTED) Query [%s] resolved to %s
+01-20 16:41:21.223  7187  7199 I FontLog : (REDACTED) Fetch %s end status %s
+01-20 16:41:21.233  7187  7199 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+01-20 16:41:21.245  7187  7199 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+01-20 16:41:21.398  1642  1650 W System  : A resource failed to call release.
+01-20 16:41:21.398  1642  1650 W System  : A resource failed to call release.
+01-20 16:41:21.398  1642  1650 W System  : A resource failed to call release.
+01-20 16:41:21.417  1355  1491 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+01-20 16:41:21.603 15364 15369 I xample.notesapp: Compiler allocated 5087KB to compile void android.view.ViewRootImpl.performTraversals()
+01-20 16:41:21.642 15364 15381 W FileTestStorage: Output properties is not supported.
+01-20 16:41:21.646 15364 15381 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+01-20 16:41:21.675 15364 15381 I xample.notesapp: hiddenapi: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/action/Tap; (domain=app, TargetSdkVersion=34) using reflection: allowed
+01-20 16:41:21.683 15364 15381 D CompatChangeReporter: Compat change id reported: 247079863; UID 10237; state: ENABLED
+01-20 16:41:21.688 15364 15381 D EventInjectionStrategy: Creating injection strategy with input manager.
+01-20 16:41:21.697   812  1635 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@fa54a3e2 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+01-20 16:41:21.720  1642  1642 D RecentsView: onTaskDisplayChanged: 28, new displayId = 0
+01-20 16:41:21.721 15364 15364 D LifecycleMonitor: Lifecycle status change: com.example.notesapp.DeleteNoteActivity@fb94481 in: PAUSED
+01-20 16:41:21.721 15364 15364 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.notesapp.DeleteNoteActivity@fb94481
+01-20 16:41:21.729   812   842 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@fa54a3e2 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+01-20 16:41:21.733   651   681 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for descriptor: '(not cached)'
+01-20 16:41:21.735  1642  1642 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+01-20 16:41:21.758  1355  1491 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@d0be7bb
+01-20 16:41:21.849  1642  1642 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+01-20 16:41:21.849  1642  1642 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+01-20 16:41:21.869   582   582 D Zygote  : Forked child process 15398
+01-20 16:41:21.900 15398 15398 I Zygote  : Process 15398 created for com.example.notesapp.test
+01-20 16:41:21.901 15398 15398 I e.notesapp.test: Late-enabling -Xcheck:jni
+01-20 16:41:21.968 15398 15398 I e.notesapp.test: Using CollectorTypeCMC GC.
+01-20 16:41:21.976 15398 15398 W e.notesapp.test: Unexpected CPU variant for x86: x86_64.
+01-20 16:41:21.976 15398 15398 W e.notesapp.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+01-20 16:41:21.992  1645  1672 I adbd    : jdwp connection from 15398
+01-20 16:41:22.018 15398 15398 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+01-20 16:41:22.057 15398 15398 D CompatChangeReporter: Compat change id reported: 242716250; UID 10238; state: ENABLED
+01-20 16:41:22.177 15398 15398 D nativeloader: Configuring clns-9 for other apk /data/app/~~KpzP4pFDVDkoQhG0YWTnxA==/com.example.notesapp.test-DViTalw9oOGGL0srDWspnQ==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~KpzP4pFDVDkoQhG0YWTnxA==/com.example.notesapp.test-DViTalw9oOGGL0srDWspnQ==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.notesapp.test
+01-20 16:41:22.197 15398 15398 V GraphicsEnvironment: Currently set values for:
+01-20 16:41:22.197 15398 15398 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+01-20 16:41:22.197 15398 15398 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+01-20 16:41:22.197 15398 15398 V GraphicsEnvironment: com.example.notesapp.test is not listed in per-application setting
+01-20 16:41:22.198 15398 15398 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+01-20 16:41:22.198 15398 15398 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+01-20 16:41:22.198 15398 15398 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+01-20 16:41:22.238 15398 15398 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+01-20 16:41:22.255 15398 15398 D DesktopExperienceFlags: Toggle override initialized to: false
+01-20 16:41:22.255 15398 15398 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+01-20 16:41:22.266 15398 15411 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+01-20 16:41:22.268 15398 15411 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+01-20 16:41:22.279 15398 15411 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+01-20 16:41:22.279 15398 15411 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+01-20 16:41:22.316 15398 15398 W HWUI    : Unknown dataspace 0
+01-20 16:41:22.335 15398 15398 D VRI[InstrumentationActivityInvoker$EmptyActivity]: WindowInsets changed: 1080x2400 statusBars:[0,63,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,63,0,84]
+01-20 16:41:22.337 15398 15398 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@2bfc402
+01-20 16:41:22.338   651   874 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for descriptor: '(not cached)'
+01-20 16:41:22.345   651  1761 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10238 pid=0
+01-20 16:41:22.345   651  1761 D libbinder.PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10238 => denied (687 us)
+01-20 16:41:22.346   651  1761 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10238 pid=0
+01-20 16:41:22.346   651  1761 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10238 => denied (695 us)
+01-20 16:41:22.346   651  1761 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10238 pid=0
+01-20 16:41:22.346   651  1761 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10238 => denied (252 us)
+01-20 16:41:22.347  1642  1642 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+01-20 16:41:22.411 15364 15364 D VRI[DeleteNoteActivity]: visibilityChanged oldVisibility=true newVisibility=false
+01-20 16:41:22.415   812  1637 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10238 pid=0
+01-20 16:41:22.415   812  1637 D libbinder.PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10238 => denied (151 us)
+01-20 16:41:22.415   812  1637 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10238 pid=0
+01-20 16:41:22.415   812  1637 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10238 => denied (190 us)
+01-20 16:41:22.416   812  1637 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10238 pid=0
+01-20 16:41:22.416   812  1637 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10238 => denied (121 us)
+01-20 16:41:22.422  1642  1642 D ViewRootImpl: Skipping stats log for color mode
+01-20 16:41:22.422  1642  1642 D BaseActivity: Launcher flags updated: [state_started] +[state_started]
+01-20 16:41:22.427  1642  1642 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_user_active] +[state_resumed|state_user_active]
+01-20 16:41:22.429  1642  1642 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+01-20 16:41:22.445  1355  1688 D WallpaperService: onVisibilityChanged(true): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@a59bd9e
+01-20 16:41:22.446  1642  1642 D BaseDepthController: setSurface:
+01-20 16:41:22.446  1642  1642 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+01-20 16:41:22.446  1642  1642 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#662)/@0x80db056
+01-20 16:41:22.446  1642  1642 V BaseDepthController: Applying blur: 0 to Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#662)/@0x80db056 applyImmediately: false
+01-20 16:41:22.448  1642  1642 D BaseDepthController: shouldBlurWorkspace: false targetState: Normal currentStableState: Normal mCurrentBlur: 0 mLauncher.getDepthBlurTargets(): [com.android.launcher3.Workspace{21278d7 V.ED..... .......D 0,0-1080,2400 #7f0a049d app:id/workspace}, com.android.launcher3.Hotseat{ff925c4 V.ED..... .......D 0,1905-1080,2400 #7f0a01ee app:id/hotseat}]
+01-20 16:41:22.464 15364 15364 D LifecycleMonitor: Lifecycle status change: com.example.notesapp.DeleteNoteActivity@fb94481 in: STOPPED
+01-20 16:41:22.464 15364 15364 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.notesapp.DeleteNoteActivity@fb94481
+01-20 16:41:22.465 15364 15364 D LifecycleMonitor: Lifecycle status change: com.example.notesapp.DeleteNoteActivity@fb94481 in: DESTROYED
+01-20 16:41:22.465 15364 15364 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+01-20 16:41:22.466 15364 15364 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+01-20 16:41:22.470 15364 15381 E TestRunner: failed: deleteNote_noteIsRemoved(com.example.notesapp.ui.DeleteNoteActivityTest)
+01-20 16:41:22.470 15364 15381 E TestRunner: ----- begin exception -----
+01-20 16:41:22.472 15364 15381 E TestRunner: java.lang.RuntimeException: java.lang.NoSuchMethodException: android.hardware.input.InputManager.getInstance []
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.base.InputManagerEventInjectionStrategy.initialize(InputManagerEventInjectionStrategy.java:28)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.base.BaseLayerModule.provideEventInjector(BaseLayerModule.java:4)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.base.BaseLayerModule_ProvideEventInjectorFactory.provideEventInjector(BaseLayerModule_ProvideEventInjectorFactory.java:1)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.base.BaseLayerModule_ProvideEventInjectorFactory.get(BaseLayerModule_ProvideEventInjectorFactory.java:1)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.base.BaseLayerModule_ProvideEventInjectorFactory.get(BaseLayerModule_ProvideEventInjectorFactory.java:2)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.base.UiControllerImpl_Factory.get(UiControllerImpl_Factory.java:1)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.base.UiControllerImpl_Factory.get(UiControllerImpl_Factory.java:2)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.base.UiControllerModule_ProvideUiControllerFactory.get(UiControllerModule_ProvideUiControllerFactory.java:1)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.base.UiControllerModule_ProvideUiControllerFactory.get(UiControllerModule_ProvideUiControllerFactory.java:2)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.DaggerBaseLayerComponent$ViewInteractionComponentImpl.viewInteraction(DaggerBaseLayerComponent.java:1)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.Espresso.onView(Espresso.java:3)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:1)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:2)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:7)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:13)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.DataInteraction$DisplayDataMatcher.displayDataMatcher(DataInteraction.java:1)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.DataInteraction.makeTargetMatcher(DataInteraction.java:2)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.DataInteraction.perform(DataInteraction.java:1)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at com.example.notesapp.ui.DeleteNoteActivityTest.deleteNote_noteIsRemoved(DeleteNoteActivityTest.java:36)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:67)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:446)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2627)
+01-20 16:41:22.472 15364 15381 E TestRunner: Caused by: java.lang.NoSuchMethodException: android.hardware.input.InputManager.getInstance []
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at java.lang.Class.getMethod(Class.java:2934)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at java.lang.Class.getDeclaredMethod(Class.java:2913)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	at androidx.test.espresso.base.InputManagerEventInjectionStrategy.initialize(InputManagerEventInjectionStrategy.java:5)
+01-20 16:41:22.472 15364 15381 E TestRunner: 	... 56 more
+01-20 16:41:22.472 15364 15381 E TestRunner: ----- end exception -----
+01-20 16:41:22.488 15364 15381 I TestRunner: finished: deleteNote_noteIsRemoved(com.example.notesapp.ui.DeleteNoteActivityTest)

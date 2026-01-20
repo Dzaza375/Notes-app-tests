@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.notesapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Админ\.gradle\caches\8.9\transforms\cddf55454b0466f7457ed22b2824534d\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.notesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Админ\.gradle\caches\8.9\transforms\cddf55454b0466f7457ed22b2824534d\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Админ\.gradle\caches\8.9\transforms\cddf55454b0466f7457ed22b2824534d\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.notesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Админ\.gradle\caches\8.9\transforms\cddf55454b0466f7457ed22b2824534d\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Админ\.gradle\caches\8.9\transforms\cddf55454b0466f7457ed22b2824534d\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:5:5-18:19
+18        android:allowBackup="true"
+18-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Админ\.gradle\caches\8.9\transforms\cddf55454b0466f7457ed22b2824534d\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:label="@string/app_name"
+22-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:7:9-41
+23        android:supportsRtl="true"
+23-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:8:9-35
+24        android:testOnly="true" >
+25        <activity android:name="com.example.notesapp.AddNoteActivity" />
+25-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:9:9-53
+25-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:9:19-50
+26        <activity android:name="com.example.notesapp.DeleteNoteActivity" />
+26-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:10:9-56
+26-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:10:19-53
+27        <activity
+27-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:11:9-17:20
+28            android:name="com.example.notesapp.MainActivity"
+28-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:11:19-47
+29            android:exported="true" >
+29-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:12:13-36
+30            <intent-filter>
+30-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:13:13-16:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:14:17-69
+31-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:14:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:15:17-77
+33-->C:\ForFor\ForOther\StudioProjects\NotesApp_FullProject\app\src\main\AndroidManifest.xml:15:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Админ\.gradle\caches\8.9\transforms\94f3b6f394c93eb025d331a23cfeb32f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Админ\.gradle\caches\8.9\transforms\94f3b6f394c93eb025d331a23cfeb32f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+39            android:authorities="com.example.notesapp.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Админ\.gradle\caches\8.9\transforms\94f3b6f394c93eb025d331a23cfeb32f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Админ\.gradle\caches\8.9\transforms\94f3b6f394c93eb025d331a23cfeb32f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Админ\.gradle\caches\8.9\transforms\94f3b6f394c93eb025d331a23cfeb32f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Админ\.gradle\caches\8.9\transforms\94f3b6f394c93eb025d331a23cfeb32f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Админ\.gradle\caches\8.9\transforms\94f3b6f394c93eb025d331a23cfeb32f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Админ\.gradle\caches\8.9\transforms\4df849304e87ba44ed0268a6c933ce4b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Админ\.gradle\caches\8.9\transforms\4df849304e87ba44ed0268a6c933ce4b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Админ\.gradle\caches\8.9\transforms\4df849304e87ba44ed0268a6c933ce4b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+47        </provider>
+48    </application>
+49
+50</manifest>

@@ -1,0 +1,82 @@
+# proto-message: google.testing.platform.proto.api.core.TestSuiteResult
+# 2026-01-20T16:41:24.884963200Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+  device {
+    id: "emulator-5554"
+    friendly_name: "primary"
+  }
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "DeleteNoteActivityTest"
+    test_package: "com.example.notesapp.ui"
+    test_method: "deleteNote_noteIsRemoved"
+    start_time {
+      seconds: 1768927280
+      nanos: 868000000
+    }
+    end_time {
+      seconds: 1768927283
+      nanos: 734000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.RuntimeException: java.lang.NoSuchMethodException: android.hardware.input.InputManager.getInstance []\nat androidx.test.espresso.base.InputManagerEventInjectionStrategy.initialize(InputManagerEventInjectionStrategy.java:28)\nat androidx.test.espresso.base.BaseLayerModule.provideEventInjector(BaseLayerModule.java:4)\nat androidx.test.espresso.base.BaseLayerModule_ProvideEventInjectorFactory.provideEventInjector(BaseLayerModule_ProvideEventInjectorFactory.java:1)\nat androidx.test.espresso.base.BaseLayerModule_ProvideEventInjectorFactory.get(BaseLayerModule_ProvideEventInjectorFactory.java:1)\nat androidx.test.espresso.base.BaseLayerModule_ProvideEventInjectorFactory.get(BaseLayerModule_ProvideEventInjectorFactory.java:2)\nat androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)\nat androidx.test.espresso.base.UiControllerImpl_Factory.get(UiControllerImpl_Factory.java:1)\nat androidx.test.espresso.base.UiControllerImpl_Factory.get(UiControllerImpl_Factory.java:2)\nat androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)\nat androidx.test.espresso.base.UiControllerModule_ProvideUiControllerFactory.get(UiControllerModule_ProvideUiControllerFactory.java:1)\nat androidx.test.espresso.base.UiControllerModule_ProvideUiControllerFactory.get(UiControllerModule_ProvideUiControllerFactory.java:2)\nat androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)\nat androidx.test.espresso.DaggerBaseLayerComponent$ViewInteractionComponentImpl.viewInteraction(DaggerBaseLayerComponent.java:1)\nat androidx.test.espresso.Espresso.onView(Espresso.java:3)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:1)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:2)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:7)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:13)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.displayDataMatcher(DataInteraction.java:1)\nat androidx.test.espresso.DataInteraction.makeTargetMatcher(DataInteraction.java:2)\nat androidx.test.espresso.DataInteraction.perform(DataInteraction.java:1)\nat com.example.notesapp.ui.DeleteNoteActivityTest.deleteNote_noteIsRemoved(DeleteNoteActivityTest.java:36)\n... 34 trimmed\nCaused by: java.lang.NoSuchMethodException: android.hardware.input.InputManager.getInstance []\nat java.lang.Class.getMethod(Class.java:2934)\nat java.lang.Class.getDeclaredMethod(Class.java:2913)\nat androidx.test.espresso.base.InputManagerEventInjectionStrategy.initialize(InputManagerEventInjectionStrategy.java:5)\n... 56 more\n"
+    error_type: "java.lang.NoSuchMethodException"
+    stack_trace: "java.lang.RuntimeException: java.lang.NoSuchMethodException: android.hardware.input.InputManager.getInstance []\nat androidx.test.espresso.base.InputManagerEventInjectionStrategy.initialize(InputManagerEventInjectionStrategy.java:28)\nat androidx.test.espresso.base.BaseLayerModule.provideEventInjector(BaseLayerModule.java:4)\nat androidx.test.espresso.base.BaseLayerModule_ProvideEventInjectorFactory.provideEventInjector(BaseLayerModule_ProvideEventInjectorFactory.java:1)\nat androidx.test.espresso.base.BaseLayerModule_ProvideEventInjectorFactory.get(BaseLayerModule_ProvideEventInjectorFactory.java:1)\nat androidx.test.espresso.base.BaseLayerModule_ProvideEventInjectorFactory.get(BaseLayerModule_ProvideEventInjectorFactory.java:2)\nat androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)\nat androidx.test.espresso.base.UiControllerImpl_Factory.get(UiControllerImpl_Factory.java:1)\nat androidx.test.espresso.base.UiControllerImpl_Factory.get(UiControllerImpl_Factory.java:2)\nat androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)\nat androidx.test.espresso.base.UiControllerModule_ProvideUiControllerFactory.get(UiControllerModule_ProvideUiControllerFactory.java:1)\nat androidx.test.espresso.base.UiControllerModule_ProvideUiControllerFactory.get(UiControllerModule_ProvideUiControllerFactory.java:2)\nat androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)\nat androidx.test.espresso.DaggerBaseLayerComponent$ViewInteractionComponentImpl.viewInteraction(DaggerBaseLayerComponent.java:1)\nat androidx.test.espresso.Espresso.onView(Espresso.java:3)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:1)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:2)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:7)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:13)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.displayDataMatcher(DataInteraction.java:1)\nat androidx.test.espresso.DataInteraction.makeTargetMatcher(DataInteraction.java:2)\nat androidx.test.espresso.DataInteraction.perform(DataInteraction.java:1)\nat com.example.notesapp.ui.DeleteNoteActivityTest.deleteNote_noteIsRemoved(DeleteNoteActivityTest.java:36)\n... 34 trimmed\nCaused by: java.lang.NoSuchMethodException: android.hardware.input.InputManager.getInstance []\nat java.lang.Class.getMethod(Class.java:2934)\nat java.lang.Class.getDeclaredMethod(Class.java:2913)\nat androidx.test.espresso.base.InputManagerEventInjectionStrategy.initialize(InputManagerEventInjectionStrategy.java:5)\n... 56 more\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\ForFor\\ForOther\\StudioProjects\\NotesApp_FullProject\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_36.1(AVD) - 16\\logcat-com.example.notesapp.ui.DeleteNoteActivityTest-deleteNote_noteIsRemoved.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\ForFor\\ForOther\\StudioProjects\\NotesApp_FullProject\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_36.1(AVD) - 16\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\ForFor\\ForOther\\StudioProjects\\NotesApp_FullProject\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_36.1(AVD) - 16\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\ForFor\\ForOther\\StudioProjects\\NotesApp_FullProject\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_36.1(AVD) - 16\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\ForFor\\ForOther\\StudioProjects\\NotesApp_FullProject\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_36.1(AVD) - 16\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

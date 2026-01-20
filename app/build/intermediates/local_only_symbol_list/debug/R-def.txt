@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+id btnSave
+id listViewDelete
+id menu_add_note
+id menu_delete_note
+id notesListView
+id txtContent
+id txtTitle
+layout activity_add_note
+layout activity_delete_note
+layout activity_main
+menu main_menu
+string add_note
+string app_name
+string delete_note
+string hint_content
+string hint_title
+string note_added
+string note_deleted
+string save
+string warning_empty
